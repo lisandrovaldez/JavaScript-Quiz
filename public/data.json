@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es el resultado de la siguiente expresión?",
+    "code": "3 + 2 + '7'",
+    "answers": ["12", "327", "57", "NaN"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 2,
+    "question": "¿Qué tipo de dato es NaN en JavaScript?",
+    "code": "",
+    "answers": ["string", "number", "undefined", "object"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es el resultado de typeof null?",
+    "code": "typeof null",
+    "answers": ["null", "undefined", "object", "number"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 4,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(1 == '1')",
+    "answers": ["true", "false", "undefined", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(1 === '1')",
+    "answers": ["true", "false", "undefined", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es el resultado de la expresión?",
+    "code": "Boolean([])",
+    "answers": ["true", "false", "null", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es el resultado de la expresión?",
+    "code": "[] == false",
+    "answers": ["true", "false", "NaN", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "¿Qué método se usa para convertir un JSON en un objeto JavaScript?",
+    "code": "",
+    "answers": ["JSON.stringify()", "JSON.parse()", "JSON.object()", "JSON.convert()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "¿Qué método convierte un objeto JavaScript en JSON?",
+    "code": "",
+    "answers": ["JSON.parse()", "JSON.stringify()", "JSON.toString()", "JSON.encode()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(typeof undefined)",
+    "answers": ["null", "undefined", "object", "string"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es el resultado?",
+    "code": "2 * '3'",
+    "answers": ["6", "23", "NaN", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 12,
+    "question": "¿Qué valor devuelve una función sin return?",
+    "code": "",
+    "answers": ["null", "false", "undefined", "0"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 13,
+    "question": "¿Qué método agrega un elemento al final de un array?",
+    "code": "",
+    "answers": ["push()", "pop()", "shift()", "unshift()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 14,
+    "question": "¿Qué método elimina el último elemento de un array?",
+    "code": "",
+    "answers": ["shift()", "unshift()", "pop()", "slice()"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 15,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log([] + [])",
+    "answers": ["[]", "''", "0", "NaN"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 16,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log({} + {})",
+    "answers": ["[object Object][object Object]", "{}", "NaN", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 17,
+    "question": "¿Cuál es el alcance de una variable declarada con let?",
+    "code": "",
+    "answers": ["global", "función", "bloque", "archivo"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 18,
+    "question": "¿Cuál es el alcance de una variable declarada con var?",
+    "code": "",
+    "answers": ["bloque", "función", "módulo", "clase"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 19,
+    "question": "¿Qué operador se usa para el spread operator?",
+    "code": "",
+    "answers": ["...", "??", "=>", "::"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(!!'')",
+    "answers": ["true", "false", "null", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 21,
+    "question": "¿Qué tipo de función es () => {}?",
+    "code": "",
+    "answers": ["función anónima", "arrow function", "función clásica", "callback"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "question": "¿Qué método recorre un array y devuelve uno nuevo?",
+    "code": "",
+    "answers": ["forEach()", "map()", "filter()", "reduce()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 23,
+    "question": "¿Qué método filtra elementos de un array?",
+    "code": "",
+    "answers": ["map()", "filter()", "find()", "some()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 24,
+    "question": "¿Qué método devuelve un solo valor acumulado?",
+    "code": "",
+    "answers": ["map()", "filter()", "reduce()", "forEach()"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 25,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(0 || 'JS')",
+    "answers": ["0", "false", "JS", "undefined"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 26,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log('' && 'JS')",
+    "answers": ["''", "JS", "false", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 27,
+    "question": "¿Qué operador devuelve el primer valor verdadero?",
+    "code": "",
+    "answers": ["&&", "||", "??", "!"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 28,
+    "question": "¿Qué operador evalúa null o undefined?",
+    "code": "",
+    "answers": ["||", "&&", "??", "!"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 29,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(typeof [])",
+    "answers": ["array", "object", "list", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 30,
+    "question": "¿Qué palabra clave se usa para crear una clase?",
+    "code": "",
+    "answers": ["function", "object", "class", "constructor"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 31,
+    "question": "¿Qué método se ejecuta al crear una instancia de una clase?",
+    "code": "",
+    "answers": ["init()", "constructor()", "create()", "new()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 32,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log([1,2,3].length)",
+    "answers": ["2", "3", "4", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 33,
+    "question": "¿Qué método convierte un string en número?",
+    "code": "",
+    "answers": ["Number()", "String()", "Boolean()", "Object()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 34,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(isNaN('123'))",
+    "answers": ["true", "false", "NaN", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 35,
+    "question": "¿Qué estructura se usa para manejar errores?",
+    "code": "",
+    "answers": ["if/else", "try/catch", "switch", "throw"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 36,
+    "question": "¿Qué palabra clave lanza un error?",
+    "code": "",
+    "answers": ["error", "catch", "throw", "return"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 37,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log('5' - 2)",
+    "answers": ["3", "52", "NaN", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 38,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log('5' + 2)",
+    "answers": ["7", "52", "NaN", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 39,
+    "question": "¿Qué método busca un elemento en un array?",
+    "code": "",
+    "answers": ["find()", "map()", "reduce()", "push()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 40,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log([1,2,3].includes(2))",
+    "answers": ["true", "false", "undefined", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 41,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(!!0)",
+    "answers": ["true", "false", "null", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 42,
+    "question": "¿Qué tipo de dato es un array?",
+    "code": "",
+    "answers": ["array", "object", "list", "collection"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 43,
+    "question": "¿Qué palabra clave detiene un loop?",
+    "code": "",
+    "answers": ["stop", "exit", "break", "return"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 44,
+    "question": "¿Qué palabra clave salta a la siguiente iteración?",
+    "code": "",
+    "answers": ["next", "skip", "continue", "break"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 45,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log(Math.floor(4.7))",
+    "answers": ["4", "5", "4.7", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 46,
+    "question": "¿Qué método redondea al entero más cercano?",
+    "code": "",
+    "answers": ["Math.floor()", "Math.ceil()", "Math.round()", "Math.trunc()"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 47,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log('JS'.length)",
+    "answers": ["1", "2", "3", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 48,
+    "question": "¿Qué operador se usa para negar una condición?",
+    "code": "",
+    "answers": ["&&", "||", "!", "??"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 49,
+    "question": "¿Qué método convierte un array en string?",
+    "code": "",
+    "answers": ["join()", "split()", "concat()", "map()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 50,
+    "question": "¿Qué imprime el siguiente código?",
+    "code": "console.log([] === [])",
+    "answers": ["true", "false", "undefined", "Error"],
+    "correctAnswer": 2
+  }
+]
