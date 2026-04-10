@@ -1,6 +1,6 @@
 import { Card, Stack, RadioCard, IconButton, HStack, Container } from '@chakra-ui/react'
 import { useQuestionsStore } from './store/questions'
-import { type Question } from './types'
+import { type Question } from './types.d'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { nightOwl } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md'
