@@ -20,7 +20,7 @@ function App() {
 
         {questions.length === 0 && <Start />}
         {questions.length > 0 && <Game />}
-        /* {questions.length > 0 && unanswered === 0 && <Final />} */
+        {questions.length > 0 && unanswered === 0 && <Final />}
       </Container>
     </main>
   )
