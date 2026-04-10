@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { type Question } from '../types'
+import { type Question } from '../types.d'
 
 interface QuestionsState {
   questions: Question[]
